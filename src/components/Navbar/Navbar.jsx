@@ -1,6 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import logo from '../../images/logo.png';
+import loginArrow from '../../images/loginArrow.svg';
 
 const Navbar=()=> (
    
@@ -35,10 +36,7 @@ const Navbar=()=> (
           
    
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
+       <a className="loginArrowButton" href=" "><img src={loginArrow}/></a>
       </div>
     </div>
   </nav>
