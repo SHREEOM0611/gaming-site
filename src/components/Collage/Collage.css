@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item1 {
+    grid-area: g1;
+}
+
+.item2 {
+    grid-area: g2;
+}
+
+.item3 {
+    grid-area: g3;
+}
+
+.item4 {
+    grid-area: g4;
+}
+
+.item5 {
+    grid-area: g5;
+}
+
+.item6 {
+    grid-area: g6;
+}
+
+.item7 {
+    grid-area: g7;
+}
+
+.item8 {
+    grid-area: g8;
+}
+
+.item9 {
+    grid-area: g9;
+}
+
+.item10 {
+    grid-area: gt;
+}
+
+.item11 {
+    grid-area: ge;
+}
+
+.item12 {
+    grid-area: gw;
+}
+
+.item13 {
+    grid-area: gn;
+}
+
+
+.collage-grid {
+    display: grid;
+    grid-template-areas:
+        /* 'g1 g2 g3'
+    'g4 g5 g6'
+    'g7 g8 g9'
+    'g10 g11 g12'; */
+        /* 'g1 g1 g1 g3 g3 g6 g6 g4 g4 g8'
+        'g5 g5 g5 g3 g3 g6 g6 gw gw g8'
+        'g5 g5 g5 gt gt ge ge gw gw g8'
+        'g5 g5 g5 gt gt ge ge g7 g7 g7'; */
+        'g1 g1 g1 g1 g1 g6 g6 g4 g4 g8'
+        'g3 g3 g3 gt gt g6 g6 gw gw g8'
+        'g5 g5 g5 gt gt ge ge gw gw g8'
+        'g5 g5 g5 gt gt ge ge g7 g7 g7';
+    gap: 4px;
+
+    background-color: rgba(133, 135, 137, 0.9);
+    padding: 3px;
+    width: 90%;
+    margin: auto;
+}
+
+.collage-grid>div {
+    background-color: rgba(164, 207, 233, 0.9);
+    color: #000;
+    /* padding: 20px 0px; */
+    font-size: 75px;
+}
+
+#i8 img {
+    width: 100%;
+    height: 100%;
+}
+
+#i8 {
+    height: 264px;
+    width: inherit;
+
+}
+
+#i7 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 137px;
+    width: 240px;
+}
+#i7 img {
+    height: 100%;
+    width: 100%;
+}

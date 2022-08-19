@@ -1,37 +1,28 @@
-import React from 'react';
+import React from "react";
 
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Slider from "./components/Slider/Slider.jsx";
 
-import Navbar from './components/Navbar/Navbar.jsx';
-import Slider from './components/Slider/Slider.jsx';
-import Login from './components/Login/Login.jsx';
-import Signin from './components/Signin/Signin.jsx';
+import Login from "./components/Login/Login.jsx";
+import Signin from "./components/Signin/Signin.jsx";
 
+import Collage from "./components/Collage/Collage.jsx";
 
+import "./App.css";
 
-import './App.css';
+const App = () => (
+  <div>
+    <Navbar />
+    <Slider />
 
+    <Login />
+    <Signin />
 
-
-
-
-const App=()=> (
-  
-
-<div >
-
-<Navbar />
-<Slider /> 
-
-<Login />
- <Signin />
-
-
-
-
-</div>
-
-
-  );
-
+    <div className="feed">
+      <h1>Feed and Videos</h1>
+      <Collage />
+    </div>
+  </div>
+);
 
 export default App;

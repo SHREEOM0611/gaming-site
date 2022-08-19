@@ -3,11 +3,6 @@ body{
   background-image: url('./images/bg.jpg') ;
   background-size: 500px 500px;
   background-repeat: repeat-x repeat-y;
-  
-  
-  
-  
-  
   }
   /* @keyframes gradient {
     0% {
@@ -22,4 +17,12 @@ body{
         background-position: 0% 50%;
     }
   } */
+
+  .feed{
+    background-color: azure;
+    width: 76%;
+    padding: 17px;
+    border-radius: 12px;
+    margin: 13px auto;
+  }
   
