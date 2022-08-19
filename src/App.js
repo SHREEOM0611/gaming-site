@@ -3,6 +3,7 @@ import React from 'react';
 
 import Navbar from './components/Navbar/Navbar.jsx';
 import Slider from './components/Slider/Slider.jsx';
+import Collage from './components/Collage/Collage.jsx';
 
 import './App.css';
 
@@ -10,23 +11,26 @@ import './App.css';
 
 
 
-const App=()=> (
-  
-
-<div >
-
-<Navbar />
-<Slider />
-<div className="app-app">
-  
-</div>
+const App = () => (
 
 
+  <div >
 
-</div>
+    <Navbar />
+    <Slider />
+    <div className="feed">
+      <h1>
+        Feed and Videos
+      </h1>
+      <Collage />
+    </div>
 
 
-  );
+
+  </div>
+
+
+);
 
 
 export default App;
