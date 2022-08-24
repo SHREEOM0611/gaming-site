@@ -1,22 +1,3 @@
-body{
-
-  background-image: url('./images/bg.jpg') ;
-  background-size: 500px 500px;
-  background-repeat: repeat-x repeat-y;
-  }
-  /* @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-  
-    50% {
-        background-position: 100% 50%;
-    }
-  
-    100% {
-        background-position: 0% 50%;
-    }
-  } */
 
   .feed{
     background-color: azure;

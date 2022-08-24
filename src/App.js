@@ -8,6 +8,9 @@ import Signin from "./components/Signin/Signin.jsx";
 
 import Collage from "./components/Collage/Collage.jsx";
 
+import Gamepage from './components/Gamepage/Gamepage.jsx';
+
+
 import "./App.css";
 
 const App = () => (
@@ -22,6 +25,8 @@ const App = () => (
       <h1>Feed and Videos</h1>
       <Collage />
     </div>
+
+    <Gamepage />
   </div>
 );
 

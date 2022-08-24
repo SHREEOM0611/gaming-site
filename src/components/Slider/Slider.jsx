@@ -26,9 +26,7 @@ const Slider=()=> (
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
     </div>
     <div class="carousel-inner">
-      <div class="carousel-item active">
-      <img src={slider1} class="d-block w-100" alt="" />
-      </div>
+      
       <div class="carousel-item">
         <img src={slider2} class="d-block w-100" alt="apex_slider.png"/>
       </div>
@@ -41,7 +39,9 @@ const Slider=()=> (
       <div class="carousel-item">
         <img src={slider5} class="d-block w-100" alt="fortnite_slider1.jpg"/>
       </div>
-
+      <div class="carousel-item active">
+      <img src={slider1} class="d-block w-100" alt="" />
+      </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
