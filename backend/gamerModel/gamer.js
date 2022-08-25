@@ -14,7 +14,16 @@ const gamerSchema = new Schema({
     rating:{
         type: Number,
         required:true
+    },
+    image:{
+        type:String,
+        
+    },
+    description:{
+        type:String
+        
     }
+
 },{ timestamps: true })
 
 module.exports = mongoose.model('Players', gamerSchema)

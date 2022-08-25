@@ -13,10 +13,10 @@ router.get('/:id', getPlayer)
 // POST a new gamer
 router.post('/', createPlayer)
 
-// DELETE a single workouts
+// DELETE a single gamer
 router.delete('/:id', deletePlayer)
 
-// UPDATe a single workouts
+// UPDATe a single gamer
 router.patch('/:id', updatePlayer)
 
 

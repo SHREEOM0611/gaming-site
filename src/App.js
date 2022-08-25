@@ -9,12 +9,14 @@ import Signin from "./components/Signin/Signin.jsx";
 import Collage from "./components/Collage/Collage.jsx";
 
 import Gamepage from './components/Gamepage/Gamepage.jsx';
+import TopGamers from './components/TopGamers/TopGamers.jsx'
 
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 const App = () => (
-  <div>
+  <div className="App">
+
     <Navbar />
     <Slider />
 
@@ -27,6 +29,7 @@ const App = () => (
     </div>
 
     <Gamepage />
+    <TopGamers />
   </div>
 );
 
