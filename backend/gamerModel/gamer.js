@@ -15,13 +15,9 @@ const gamerSchema = new Schema({
         type: Number,
         required:true
     },
-    image:{
+    game:{
         type:String,
-        
-    },
-    description:{
-        type:String
-        
+        required:true
     }
 
 },{ timestamps: true })
