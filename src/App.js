@@ -9,7 +9,10 @@ import Signin from "./components/Signin/Signin.jsx";
 import Collage from "./components/Collage/Collage.jsx";
 
 import Gamepage from './components/Gamepage/Gamepage.jsx';
-import TopGamers from './components/TopGamers/TopGamers.jsx'
+import TopGamers from './components/TopGamers/TopGamers.jsx';
+import TopVideo from './components/TopVideo/TopVideo.jsx';
+
+
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
@@ -20,16 +23,20 @@ const App = () => (
     <Navbar />
     <Slider />
 
-    <Login />
-    <Signin />
+    {/* <Login />
+    <Signin /> */}
 
-    <div className="feed">
+    {/* <div className="feed">
       <h1>Feed and Videos</h1>
       <Collage />
-    </div>
+    </div> */}
 
     <Gamepage />
     <TopGamers />
+    <TopVideo />
+
+    <Login />
+    <Signin />
   </div>
 );
 

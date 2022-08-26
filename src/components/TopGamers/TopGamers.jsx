@@ -8,7 +8,8 @@ import img4 from '../../images/top_gamers4.png';
 
 const TopGamers = () => (
   <div className="TopGamers">
-        <h1>TOP GAMERS</h1>
+        <h1>TOP COD GAMERS</h1>
+        <div className="gamecard_container">
         <div className="gamerCard"> 
               <div className="content">
               <img src={img1}/> 
@@ -32,7 +33,7 @@ const TopGamers = () => (
               <img src={img4}/> 
               </div>            
             </div>
-        
+            </div>
 
   </div>
 );

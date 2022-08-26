@@ -13,7 +13,7 @@ const Signin=()=>(
    
  
 
-<div className="app__login_content">
+<div className="app__signin_content">
 
 <div className='app_login_text'>
 <img className="app_login_logo" src={loginArrow} />   

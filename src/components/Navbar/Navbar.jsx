@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import logo from '../../images/logo.png';
+import logo from '../../images/gericht.png';
 import loginArrow from '../../images/loginArrow.svg';
 
 const Navbar=()=> (
@@ -36,7 +36,7 @@ const Navbar=()=> (
           
    
         </ul>
-       <a className="loginArrowButton" href=" "><img src={loginArrow}/></a>
+       <a className="loginArrowButton" href=" ">Login</a>
       </div>
     </div>
   </nav>

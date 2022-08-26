@@ -40,7 +40,7 @@ const Slider=()=> (
         <img src={slider5} class="d-block w-100" alt="fortnite_slider1.jpg"/>
       </div>
       <div class="carousel-item active">
-      <img src={slider1} class="d-block w-100" alt="" />
+      <img src={slider2} class="d-block w-100" alt="" />
       </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

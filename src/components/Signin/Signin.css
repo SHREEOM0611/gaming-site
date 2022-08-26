@@ -39,7 +39,7 @@
     margin-left:20%;
     margin-top:2rem;
 }
-.app__login_content{
+.app__signin_content{
     align-items: flex-start;
     background-color: black;
     width:40%;
@@ -56,11 +56,11 @@
     border-radius: 5rem;
 }
 
-.app_login_button{
+.app__signin_content .app_login_button{
     width:50%;
     height:40px;
     border-radius: 10rem;
-    margin-left: 25%;
+    margin-left: 10%;
     margin-top:2.5rem;
     background-color: black;
     color:goldenrod;
@@ -69,10 +69,7 @@
 
 .app_login_button:hover{
     width:55%;
-    
-    border-radius: 25rem;
-    margin-left: 22.5%;
-    margin-top:2.5rem;
+
     background-color: goldenrod;
     color:black;
 }
