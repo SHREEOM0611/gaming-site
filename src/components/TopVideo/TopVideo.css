@@ -13,6 +13,8 @@
     font-family: Roboto Condensed;
     color:white;
     margin:5rem;
+    border-bottom: 6px solid red;
+    padding-bottom: 3px;
 }
 
 .TopVideo .video_container{

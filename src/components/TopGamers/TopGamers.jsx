@@ -30,7 +30,8 @@ const TopGamers = () => {
     fetchGamers()
   
   },[])
-  return (<div className="TopGamers">
+  return (
+  <div className="TopGamers">
         <h1>TOP COD GAMERS</h1>
 
 
