@@ -15,8 +15,12 @@ const gamerSchema = new Schema({
         type: Number,
         required:true
     },
-    game:{
-        type:String,
+    // game:{
+    //     type: String,
+    //     required:true
+    // },
+    World_Championship:{
+        type: String,
         required:true
     }
 

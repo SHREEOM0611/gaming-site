@@ -2,6 +2,7 @@ const { default: mongoose } = require('mongoose')
 const Players = require('../gamerModel/gamer')
 
 
+
 // get all gamers
 const getPlayers = async (req, res) => {
     const allGamers = await Players.find({}).sort({ createdAt: -1 })
@@ -25,10 +26,10 @@ const getPlayer = async (req, res) => {
 
 // create a new gamer
 const createPlayer = async (req, res) => {
-    const { name, country, rating } = req.body
+    const { name, country, rating, game, World_Championship } = req.body
     // add a player to db
     try {
-        const newGamer = await Players.create({ name, country, rating })
+        const newGamer = await Players.create({ name, country, rating, game, World_Championship })
         res.status(200).json(newGamer)
     } catch (error) {
         res.status(404).json({ error: error.message })
@@ -67,6 +68,8 @@ const updatePlayer = async (req, res) => {
     }
     res.status(200).json(updPlayer)
 }
+
+
 
 
 module.exports = {
