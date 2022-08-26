@@ -12,7 +12,7 @@ const TopVideo = () => (
         <iframe width="560" height="315" src="https://www.youtube.com/embed/KASapd_VTEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
         
      </video>              */}
-     <iframe width="560" height="315" src="https://www.youtube.com/embed/KASapd_VTEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/KASapd_VTEE" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowFullScreen></iframe>
      <p className="video_title">Sniper Progress from Day 1 to Day 30 using Sniper in Cod Mobile! Here is the results!</p>
        
      <div className="video_details">
@@ -23,7 +23,7 @@ const TopVideo = () => (
         
 
             <div className="videoCard"> 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/oz_HleeBhnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/oz_HleeBhnk" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; gyroscope" allowFullScreen></iframe>       
             <p className="video_title">STREAMERS GETTING BANNED FOR HACKING - Valorant Best WTF & Funny Moments</p>
          
             <div className="video_details">
@@ -35,7 +35,7 @@ const TopVideo = () => (
            
 
             <div className="videoCard"> 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/jwerp2SNiTQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/jwerp2SNiTQ" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowFullScreen></iframe>        
            <p className="video_title">32 Kill Solo Squads!! Fortnite Battle Royale Gameplay - Ninja</p>
            
            <div className="video_details">
@@ -46,7 +46,7 @@ const TopVideo = () => (
             </div>
 
             <div className="videoCard"> 
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/kThTXog88Ck" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>     
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/kThTXog88Ck" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope" allowFullScreen></iframe>     
           
           
            <p className="video_title">shroud | PUBG SOLO | 23 Kills | M416+Kar98k | July 16</p>

@@ -26,10 +26,10 @@ const getVideo = async (req, res) => {
 
 // create a new Video
 const createVideo = async (req, res) => {
-    const { title, owner, views} = req.body
+    const { video, title, owner, views} = req.body
     // add a player to db
     try {
-        const newVideo = await Videos.create({ title, owner, views})
+        const newVideo = await Videos.create({ video, title, owner, views})
         res.status(200).json(newVideo)
     } catch (error) {
         res.status(404).json({ error: error.message })
