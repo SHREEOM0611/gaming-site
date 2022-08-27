@@ -34,7 +34,7 @@
 .gamerCard{
     width: 40%;
     height:500px;
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     margin:0 2rem 2rem 2rem;
     border-radius: 2rem;
     background-size: cover;

@@ -20,11 +20,10 @@ import "./App.css";
 const App = () => (
   <div className="App">
 
-    <Navbar />
+     <Navbar />
     <Slider />
 
-    {/* <Login />
-    <Signin /> */}
+   
 
     {/* <div className="feed">
       <h1>Feed and Videos</h1>
@@ -32,7 +31,7 @@ const App = () => (
     </div> */}
 
     <Gamepage />
-    <TopGamers />
+    <TopGamers /> 
     <TopVideo />
 
     <Login />
