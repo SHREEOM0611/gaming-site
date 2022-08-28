@@ -1,5 +1,5 @@
 const { default: mongoose } = require('mongoose')
-const Videos = require('../gamerModel/videos')
+const Videos = require('../models/videos')
 
 
 
