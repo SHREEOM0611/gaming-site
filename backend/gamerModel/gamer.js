@@ -11,14 +11,14 @@ const gamerSchema = new Schema({
         type: String,
         required: true
     },
+     image:{
+        type: String,
+        required:true
+    },
     rating:{
         type: Number,
         required:true
     },
-    // game:{
-    //     type: String,
-    //     required:true
-    // },
     World_Championship:{
         type: String,
         required:true

@@ -7,7 +7,6 @@
     display:flex;
     flex-direction: column;
     align-items: center;
-    /* background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("../Gamepage/gamepage-bg2.jpg"); */
     background-attachment: fixed;
     background-size: cover;
 
@@ -34,29 +33,23 @@
 .gamerCard{
     width: 40%;
     height:500px;
-    /* background-color: aliceblue; */
     margin:0 2rem 2rem 2rem;
     border-radius: 2rem;
-    background-size: cover;
-    
-    /* align-items: center; */
-    
-   
+    background-size: cover;  
 }
 
 
 
 .gamerCard  img{
-width:100%;
-border-radius: 50%;
-cursor: pointer;
+    width:100%;
+    border-radius: 50%;
+    cursor: pointer;
 }
 
 
 .gamerCard img:hover{  
-    border-radius: 50%;
-    
-    }
+    border-radius: 50%;  
+}
 
 
 .gamerCard .content{
@@ -67,16 +60,12 @@ cursor: pointer;
     background-color: #1f0f0f;
     border-radius: 0 3rem 3rem 3rem;
     display:flex;
-    flex-direction: column;
-    
-    
+    flex-direction: column;  
 }
 
 .gamerCard .content img{
-
     height:250px;
     width:250px;
-
     margin-top:-100px;
     margin-left:-1rem;
     border: solid #0e0e0e;
@@ -85,24 +74,21 @@ cursor: pointer;
 }
 
 .gamerCard .content img:hover{
-
     height:270px;
     width:270px;
-  /* border-radius: 50%; */
     margin-top:-140px;
     border: solid #eeeeee;
     border-width: 12px;
 }
 
 .gamecard_container p {
-color:white;
+    color:white;
 }
 
 .gamerCard .content .gamerDetails{
     display:flex;
     flex-direction: column;
     width: 500px;
-    /* background-color: black; */
     margin-left:0;
     margin-top: 9rem;
     position:absolute;
@@ -110,10 +96,10 @@ color:white;
     border-radius: 0 0 0 3rem;
 }
 
-.gamerDetails p{
-    
+.gamerDetails p{   
     margin-left:5rem;
 }
+
 .name{
     font-family:Cormorant ;
     font-size: 2rem;
@@ -127,9 +113,9 @@ color:white;
 }
 
 .origin{
- display:flex;
- 
+    display:flex;
 }
+
 .origin p{
     margin-right: 5rem;
 }

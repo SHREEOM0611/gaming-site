@@ -11,6 +11,8 @@ import Collage from "./components/Collage/Collage.jsx";
 import Gamepage from './components/Gamepage/Gamepage.jsx';
 import TopGamers from './components/TopGamers/TopGamers.jsx';
 import TopVideo from './components/TopVideo/TopVideo.jsx';
+import GamingProfile from './components/GamingProfile/GamingProfile.jsx';
+
 
 
 
@@ -33,7 +35,7 @@ const App = () => (
     <Gamepage />
     <TopGamers /> 
     <TopVideo />
-
+<GamingProfile />
     <Login />
     <Signin />
   </div>

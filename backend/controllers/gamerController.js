@@ -26,10 +26,10 @@ const getPlayer = async (req, res) => {
 
 // create a new gamer
 const createPlayer = async (req, res) => {
-    const { name, country, rating, game, World_Championship } = req.body
+    const { name, country, rating, image, World_Championship } = req.body
     // add a player to db
     try {
-        const newGamer = await Players.create({ name, country, rating, game, World_Championship })
+        const newGamer = await Players.create({ name, country, rating, image, World_Championship })
         res.status(200).json(newGamer)
     } catch (error) {
         res.status(404).json({ error: error.message })

@@ -1,14 +1,5 @@
-import React from "react";
+import React,{useEffect, useState } from "react";
 import "./TopGamers.css";
-import img1 from '../../images/top_gamers1.png';
-import img2 from '../../images/top_gamers2.png';
-import img3 from '../../images/top_gamers3.png';
-import img4 from '../../images/top_gamers4.png';
-import {useEffect, useState } from 'react';
-
-
-
-
 
 const TopGamers = () => {
  
@@ -35,7 +26,7 @@ const TopGamers = () => {
               (       
                   <div className="gamerCard"> 
                       <div className="content">
-                      <img src={img1}/> 
+                      <img key={allGamers._id} src={allGamers.image}/> 
                       <div className="gamerDetails">
                       <p className="name" key={allGamers._id}> {allGamers.name} </p>
                       <div className="origin">
