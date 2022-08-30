@@ -51,6 +51,7 @@
 .video_details{
     display:flex;
     justify-content: space-between;
+    color: rgb(157, 148, 148);
 }
 
 .video_details .views:hover{

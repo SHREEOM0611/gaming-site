@@ -86,7 +86,7 @@
     margin-left:5%;
 }
 
-.pictures{
+.pictures,  .videoList{
     margin-left:5rem;
     margin-top:2rem;
     font-family: Cormorant SC;
@@ -105,3 +105,33 @@
     width:100%;
 }
 
+
+.gamerProfileVideos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+ .myVideoCard{
+     /* margin:0 3rem 3rem 0; */
+     margin: 10px auto 30px;
+     padding: 20px;
+     /* border-bottom: 3px solid grey; */
+     width:65%;
+     background-color: rgb(40, 40, 47);
+     border-radius: 9px;
+    }
+    .myVideoCard p{
+        color:silver;
+    }
+
+
+.myVideoCard iframe{
+    width:100%;
+}
+.myVideo_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

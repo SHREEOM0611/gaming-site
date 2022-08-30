@@ -16,7 +16,7 @@ import GamingProfile from './components/GamingProfile/GamingProfile.jsx';
 
 
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 
 const App = () => (
