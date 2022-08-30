@@ -3,7 +3,7 @@ import axios from "axios";
 import "./TopVideo.css";
 
 const TopVideo = () => {
-  const [allVideos, setallVideos] = useState([]);
+  const [allVideos, setallVideos] = useState(null);
   useEffect(() => {
     axios
       .get("http://localhost:4000/api/videos")
@@ -20,34 +20,34 @@ const TopVideo = () => {
     //         }
     //       }
     //    fetchVideos()
-  });
+  },[]);
   return (
     <div className="TopVideo">
       <h1>TOP VIDEO STREAMS</h1>
       <div className="video_container">
         {allVideos &&
-          allVideos.map((allVideos) => (
-            <div key={allVideos._id} className="videoCard">
+          allVideos.map((allVideo) => (
+            <div key={allVideo._id} className="videoCard">
               <iframe
                 
                 width="560"
                 height="315"
-                src={allVideos.video}
+                src={allVideo.video}
                 title="YouTube video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope"
                 allowFullScreen
               ></iframe>
               <p  className="video_title">
-                {allVideos.title}
+                {allVideo.title}
               </p>
 
               <div className="video_details">
                 <p  className="video_owner">
-                  {allVideos.owner}
+                  {allVideo.owner}
                 </p>
                 <p  className="views">
-                  Views: {allVideos.views}
+                  Views: {allVideo.views}
                 </p>
               </div>
             </div>

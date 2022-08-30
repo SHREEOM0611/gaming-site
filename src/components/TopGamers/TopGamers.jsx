@@ -3,7 +3,7 @@ import axios from 'axios';
 import "./TopGamers.css";
 
 const TopGamers = () => {
-  const [allGamers, setallGamers] = useState([]);
+  const [allGamers, setallGamers] = useState(null);
   useEffect(() => {
     axios
       .get("http://localhost:4000/api/gamers")
@@ -20,7 +20,7 @@ const TopGamers = () => {
     //         }
     //       }
     //    fetchVideos()
-  });
+  },[]);
   return (
     <div className="TopGamers">
       <h1>TOP COD GAMERS</h1>
@@ -32,8 +32,7 @@ const TopGamers = () => {
                 <img  src={allGamers.image} />
                 <div className="gamerDetails">
                   <p className="name" >
-                    {" "}
-                    {allGamers.name}{" "}
+                    {allGamers.name}
                   </p>
                   <div className="origin">
                     <p > Country: {allGamers.country}</p>
