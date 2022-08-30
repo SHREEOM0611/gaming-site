@@ -24,10 +24,14 @@ const Login=()=>(
 <p>LOGIN</p>
 </div>
 
+<form>
 
 <input className="app__login_content_input" ></input>
 <input className="app__login_content_input" ></input>
-<button className="app_login_button" >Login</button>
+<input class="favorite styled" type="button" value="Login"></input>
+
+{/* <button className="app_login_button" >Login</button> */}
+</form>
 
 <div className="app_signin">
     <p className="written-content"> Don't have an account? <a href="www.google.com" target="_blank">SignIn</a>

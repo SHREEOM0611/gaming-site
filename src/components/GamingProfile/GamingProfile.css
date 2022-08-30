@@ -32,11 +32,18 @@
 .profile_name h2{
     color:silver;
     font-family:Cormorant SC;
+    text-shadow: 1px 1px;
 }
 
 .profile_pic{
     display:flex;
 }
+
+/* .my_image:hover{
+   
+        transform: scaleX(-1);
+      
+} */
 .profile_name p:hover{
     color:silver;
     

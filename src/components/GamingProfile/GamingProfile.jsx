@@ -22,7 +22,7 @@ const GamingProfile=()=>(
    <div className='profile_pic'>
    <img className=' my_image' src={img2}></img>
     <div className='profile_name'>
-        <h2>Bryan Zhelyazkov</h2>
+        <h2>Bryan "Apathy" Zhelyazkov</h2>
         <p>Followers: 25,000</p>
     </div>
    </div>
@@ -52,7 +52,7 @@ const GamingProfile=()=>(
           <p>Current Team: LA Guerrillas</p>
         </div>
     </div>
-    <h1 className='pictures'>Pictures</h1>
+    <h1 className='pictures'>My Pictures</h1>
     <div className='gamer_gallery'>
 
   

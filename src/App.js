@@ -36,8 +36,8 @@ const App = () => (
     <TopGamers /> 
     <TopVideo />
 <GamingProfile />
-    <Login />
-    <Signin />
+    {/* <Login />
+    <Signin /> */}
   </div>
 );
 
