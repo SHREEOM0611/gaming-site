@@ -17,50 +17,50 @@ const Collage = () => {
         <div class="collage">
             <h1>Top Mobile Games</h1>
             <div class="top">
-                <a href='https://www.angrybirds.com/' target="_blank" rel="noopener noreferrer">
-                    <div class="collageImage" id="mobileGame-1">
+                <div class="collageImage" id="mobileGame-1">
+                    <a href='https://www.angrybirds.com/' target="_blank" rel="noopener noreferrer">
                         <img src={i1} alt="game1" />
-                    </div>
-                </a>
-                <a href='https://supercell.com/en/games/clashofclans/' target="_blank" rel="noopener noreferrer">
-                    <div class="collageImage" id="mobileGame-2">
+                    </a>
+                </div>
+                <div class="collageImage" id="mobileGame-2">
+                    <a href='https://supercell.com/en/games/clashofclans/' target="_blank" rel="noopener noreferrer">
                         <img src={i2} alt="game2" />
-                    </div>
-                </a>
-                <a href='https://ludoking.com/' target="_blank" rel="noopener noreferrer">
-                    <div class="collageImage" id="mobileGame-3">
+                    </a>
+                </div>
+                <div class="collageImage" id="mobileGame-3">
+                    <a href='https://ludoking.com/' target="_blank" rel="noopener noreferrer">
                         <img src={i3} alt="game3" />
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
             <div class="middle" id="middleCollage">
-                <a href='https://play.google.com/store/apps/details?id=com.skgames.trafficrider' target="_blank" rel="noopener noreferrer">
-                    <div class="middleCollageImage" id="mobileGame-7">
+                <div class="middleCollageImage" id="mobileGame-7">
+                    <a href='https://play.google.com/store/apps/details?id=com.skgames.trafficrider' target="_blank" rel="noopener noreferrer">
                         <img src={i7} alt="game7" />
-                    </div>
-                </a>
-                <a href='https://templerunner2.com/' target="_blank" rel="noopener noreferrer">
-                    <div class="middleCollageImage" id="mobileGame-8">
+                    </a>
+                </div>
+                <div class="middleCollageImage" id="mobileGame-8">
+                    <a href='https://templerunner2.com/' target="_blank" rel="noopener noreferrer">
                         <img src={i8} alt="game8" />
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
             <div class="bottom">
-                <a href='https://subwaysurfers.com/' target="_blank" rel="noopener noreferrer">
-                    <div class="collageImage" id="mobileGame-4">
+                <div class="collageImage" id="mobileGame-4">
+                    <a href='https://subwaysurfers.com/' target="_blank" rel="noopener noreferrer">
                         <img src={i4} alt="game4" />
-                    </div>
-                </a>
-                <a href='https://www.callofduty.com/mobile' target="_blank" rel="noopener noreferrer">
-                    <div class="collageImage" id="mobileGame-5">
+                    </a>
+                </div>
+                <div class="collageImage" id="mobileGame-5">
+                    <a href='https://www.callofduty.com/mobile' target="_blank" rel="noopener noreferrer">
                         <img src={i5} alt="game5" />
-                    </div>
-                </a>
-                <a href='https://asphaltlegends.com/' target="_blank" rel="noopener noreferrer">
-                    <div class="collageImage" id="mobileGame-6">
+                    </a>
+                </div>
+                <div class="collageImage" id="mobileGame-6">
+                    <a href='https://asphaltlegends.com/' target="_blank" rel="noopener noreferrer">
                         <img src={i6} alt="game65" />
-                    </div>
-                </a>
+                    </a>
+                </div>
             </div>
 
 

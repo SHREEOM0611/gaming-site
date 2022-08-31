@@ -84,7 +84,9 @@
 .collage h1 {
     /* width: 0%; */
     margin: 20px 0px;
-    padding-left: 160px;
+    border-top: 4px solid #d8c2d8;
+    border-bottom: 4px solid #d8c2d8;
+    padding: 7px 0px 7px 160px;
 
     background: rgb(148, 204, 240);
     background: linear-gradient(90deg, rgba(148,204,240,1) 4%, rgba(6,0,36,0.8158613787311799) 100%, rgba(37,0,255,1) 100%);;
