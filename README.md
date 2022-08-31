@@ -1,6 +1,6 @@
 # gaming-site
 It is a Social media site for Gamers.
-### Steps to follow:
+## Steps to follow:
 >#### *FOR FRONTEND*
 
 npm i
