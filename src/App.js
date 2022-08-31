@@ -1,44 +1,15 @@
 import React from "react";
-
-import Navbar from "./components/Navbar/Navbar.jsx";
-import Slider from "./components/Slider/Slider.jsx";
-
-import Login from "./components/Login/Login.jsx";
-import Signin from "./components/Signin/Signin.jsx";
-
-import Collage from "./components/Collage/Collage.jsx";
-
-import Gamepage from './components/Gamepage/Gamepage.jsx';
-import TopGamers from './components/TopGamers/TopGamers.jsx';
-import TopVideo from './components/TopVideo/TopVideo.jsx';
-import GamingProfile from './components/GamingProfile/GamingProfile.jsx';
-
-
-
-
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "./App.css";
+import { Link, Routes, Route } from "react-router-dom";
+import Home from './pages/home';
+import About from './pages/about';
 
 const App = () => (
-  <div className="App">
-
-     <Navbar />
-    <Slider />
-
-   
-
-    {/* <div className="feed">
-      <h1>Feed and Videos</h1>
-      <Collage />
-    </div> */}
-
-    <Gamepage />
-    <TopGamers /> 
-    <TopVideo />
-<GamingProfile />
-    {/* <Login />
-    <Signin /> */}
-  </div>
+  <>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/about" element={<About />} />
+    </Routes>
+  </>
 );
 
 export default App;

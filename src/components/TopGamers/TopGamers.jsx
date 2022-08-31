@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import axios from 'axios';
 import "./TopGamers.css";
 
@@ -20,7 +21,7 @@ const TopGamers = () => {
     //         }
     //       }
     //    fetchVideos()
-  },[]);
+  }, []);
   return (
     <div className="TopGamers">
       <h1>TOP COD GAMERS</h1>
@@ -28,22 +29,25 @@ const TopGamers = () => {
         {allGamers &&
           allGamers.map((allGamers) => (
             <div key={allGamers._id} className="gamerCard">
-              <div className="content">
-                <img  src={allGamers.image} />
-                <div className="gamerDetails">
-                  <p className="name" >
-                    {allGamers.name}
-                  </p>
-                  <div className="origin">
-                    <p > Country: {allGamers.country}</p>
-                    <p > Rating : {allGamers.rating}</p>
-                  </div>
+              {/* <Link to='/bryan'> */}
 
-                  <p className="champion">
-                    World Championship: {allGamers.World_Championship}
-                  </p>
+                <div className="content">
+                  <img src={allGamers.image} />
+                  <div className="gamerDetails">
+                    <p className="name" >
+                      {allGamers.name}
+                    </p>
+                    <div className="origin">
+                      <p > Country: {allGamers.country}</p>
+                      <p > Rating : {allGamers.rating}</p>
+                    </div>
+
+                    <p className="champion">
+                      World Championship: {allGamers.World_Championship}
+                    </p>
+                  </div>
                 </div>
-              </div>
+              {/* </Link> */}
             </div>
           ))}
       </div>
