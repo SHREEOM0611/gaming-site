@@ -7,14 +7,6 @@ npm start
 >#### *FOR BACKEND*
 cd backend
 <br/>
-npm init -y
-<br/>
-npm install express
-<br/>
-npm install -g nodemon
-<br/>
-npm install dotenv
-<br/>
-npm install mongoose
+npm i
 <br/>
 npm run dev
