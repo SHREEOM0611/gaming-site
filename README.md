@@ -2,6 +2,9 @@
 It is a Social media site for Gamers.
 ### Steps to follow:
 >#### *FOR FRONTEND*
+
+npm i
+<br/>
 npm start
 
 >#### *FOR BACKEND*
